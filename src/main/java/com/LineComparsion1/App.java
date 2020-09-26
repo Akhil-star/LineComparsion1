@@ -23,42 +23,13 @@ public class App
 	    System.out.println("Length of ("+x1+","+y1+") and ("+x2+","+y2+") is "+l1);
 	    System.out.println("Length of ("+x3+","+y3+") and ("+x4+","+y4+") is "+l2);
 	    
-	    equals(l1,l2);
-	    compare(l1,l2);
-   
-    }
-    
-    public static void equals(int l1,int l2) {
-		 Integer a=new Integer(l1);
-		 Integer b=new Integer(l2);
+	    Integer a=new Integer(l1);
+		Integer b=new Integer(l2);
 		
-         if(a.equals(b))    
-         System.out.println("Lengths are Equal");
-         else
-		 System.out.println("Lengths are Not Equal");
-    }	
-			
-
-	 public static int compare(int l1, int l2) {
-	   
-		Integer a=new Integer(l1);
-        Integer b=new Integer(l2);
-        int compare=a.compareTo(b);
-        
-        if(compare>0)
-        {
-      	  System.out.println("l1 is greater than l2");
-        }
-        else if(compare<0)
-        {
-      	  System.out.println("l1 is less than l2");
-        }
+        if(a.equals(b))    
+        System.out.println("Lengths are Equal");
         else
-        {
-      	  System.out.println("l1 is equal to l2");
-        }
-        return compare;
-		
-    }
+		 System.out.println("Lengths are Not Equal");
+   }	
 	
 }
