@@ -8,8 +8,8 @@ public class App
 {
     public static void main( String[] args )
     {
-    	  int x1,x2,y1,y2;
-    	  int x3,y3,x4,y4;
+    	          int x1,x2,y1,y2;
+    	          int x3,y3,x4,y4;
 		  int  l1,l2;
 		
 		  x1=1; y1=1;
@@ -24,7 +24,7 @@ public class App
 		  System.out.println("Length of ("+x3+","+y3+") and ("+x4+","+y4+") is "+l2);
 		  
 		  Integer a=new Integer(l1);
-          Integer b=new Integer(l2);
+                  Integer b=new Integer(l2);
           
 		  if(a.equals(b))
 		  {
